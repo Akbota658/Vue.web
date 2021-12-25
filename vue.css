@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,500;0,600;0,700;1,200;1,300&family=Raleway:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300;400;600;700&family=Poor+Story&family=Poppins:ital,wght@0,500;0,600;0,700;1,200;1,300&family=Raleway:wght@500;600;700&family=Roboto:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+*{
+scroll-behavior: smooth;
+}
+body{
+  background-color:#CED8F6;
+ 
+}
+section .albt{
+   width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+     
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #505050;}
+    
+    .logo{
+    font-family: 'Comforter Brush', cursive; 
+    color: #000000;
+    font-size: 42px;
+    margin-top: 10px;
+    margin-left:-1000px
+}
+
+a{
+  text-decoration: none;
+}
+.ull  ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+html, body, .grid-container { height: 100%; margin: 0; 
+}
+.Name { 
+  margin-top:0px;
+  text-align: center;
+  color:grey;  
+}
+.Skills{
+    border-bottom: solid black;
+  margin-top:10px
+}
+.Skills h2 {
+  text-align: center;
+}
+
+.Skills ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.Education { 
+  padding-left: 20px;
+  border-bottom: solid black;
+}
+.Education h2{ 
+text-align: center;}
+.Work { 
+  padding-left: 20px;
+}
+.Work h2{ 
+text-align: center;}
+
+.Work ul li {
+  padding: 1px;
+}
+
+
+

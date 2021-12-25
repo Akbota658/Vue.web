@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="vue.css">
+</head>
+<body>
+  <section class="albt">
+       <nav>
+<header class="header">
+            <div class="logo">
+               </a>
+            </div>
+           
+        </div>
+    </div>
+</div>
+</header>
+        <a href="#" class="logo">Resume</a>
+      <div class="ull">
+        <ul>
+        <li><a href="#about" >Home</a></li>  
+        <li><a href="#skills" >Skills</a></li> 
+        <li><a href="#education" >Education</a></li> 
+        <li><a href="#work" >Work</a></li>
+        </ul> 
+        </div>
+       </nav>
+   </section>
+<div id="container">
+
+    <div class="Name">
+      <h1 id="myName">{{ myName.first }} {{ myName.last }}</h1>
+    </div>
+    
+    <div class="Skills" id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li class="list-item" v-for="mySkill in skills">{{ mySkill }}</li>
+      </ul>
+    </div>
+    
+      <div class="Education" id="education">
+        <h2>Education</h2>
+        <h3 id="myUnik">{{ myUnik.Unik }}</h3>
+        <ul>
+          <li>{{ myUnik.year }}</li>
+          <li>{{ myUnik.gpa }}</li>
+          <li>{{ myUnik.speciality }}</li>
+        </ul>
+      </div>
+      <div class="Work" id="work">
+        <h2>Work History</h2>
+        <h3>Web Projects</h3>
+        <ul>
+          <li>CV Resume with HTML and CSS</li>
+          <li>Calculator </li>
+          <li>Lada Car</li>
+          <li>Atelie for Womens & Mens</li>
+          <li>Resume with Vue.js</li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
+
+<script>
+  new Vue({
+  el: "#container",
+  data: {
+    myName: {
+      first: "Hi,I'm ",
+      last: "Akbota"
+    },
+    myUnik: {
+      Unik: "Suleyman Demirel University",
+      year: "Bacholor",
+      gpa: "3.1",
+      speciality: "IT Information System"
+    },
+    
+    skills: [
+      "HTML",
+      "CSS",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "Git",
+      "Vue"
+    ]
+  }
+});
+;
+
+
+</script>
+
+</body>
+</html>
